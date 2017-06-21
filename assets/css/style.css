@@ -1,12 +1,17 @@
-h1 {
-	;
+body {
+	position: absolute;
 }
 
 .jumbotron {
 	text-align: center;
+	opacity: .5;
+	margin: 5px 25px 5px 50px;
+	color: #010101;
+	position: relative;
 }
 
 .container-fluid {
 	text-align: center;
+	color: #FAFAFC;
 }
 

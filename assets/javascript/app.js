@@ -29,18 +29,18 @@ function checkAnsw(){
 	var correct = 0;
 
  	if (question1 === "Uma Thurman") {
-// 		console.log("Good Job!");
+ 		console.log("Good Job!");
 // }};
-// 	if (question2 == "Bruce Lee") {
+// 	if (question2 === "Bruce Lee") {
 // 			//correct++
 // 	//}
-// 	if (question3 == "O-Ren Ishii") {
+// 	if (question3 === "O-Ren Ishii") {
 // 			correct++
 // 	}
-// 	if (question4 == "Hatori Hanzo") {
+// 	if (question4 === "Hatori Hanzo") {
 // 			correct++
 // 	}
-// 	if (question5 == "Samuel L. Jackson") {
+// 	if (question5 === "Samuel L. Jackson") {
 // 			correct++
 // 	}
 
