@@ -18,7 +18,7 @@ run();
 
 function checkAnswers(){
 	var correct = 0;
-
+	var inCorrect = 0;
 	var correct_answers = {
 		question1: "Uma Thurman",
 		question2: "Bruce Lee",
@@ -37,19 +37,25 @@ $('input').each(function() {
 		if (correct_answers[question] == user_answer)
 
 			correct++;
+	} else {
+		   inCorrect++
 	}	
 });
 
-$("#numCorrect").text("Good job " + correct + " correct");
+$("#numCorrect").text("Good job! " + correct + " correct");
 
-// $(window).scrollTop(0);
+$("#numIncorrect").text("Better luck next time! " + inCorrect + " wrong");
+
+$(window).scrollTop(0);
+
+
+}
 
 function init(){
 	$("#button").on("click", checkAnswers);
 }
 
 init();	
-}
 
 
 
