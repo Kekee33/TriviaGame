@@ -12,12 +12,14 @@
     <div class="jumbotron">
         <h1>Test Your Knowledge!</h1>
         <p>Test your movie knoweledge. You will have 30 seconds to answer the following questions. Good luck!</p>
-        <div id="numCorrect"></div><div id="numIncorrect"></div>        
-    </div>
-    <center>
+        <center>
         <div id="timeLeft"></div>
-    </center>
-  <div class="container-fluid">
+        <div id="numCorrect"></div><div id="numIncorrect"></div>        
+        </center>
+    </div>
+    <div class="jumbotron">    
+    <div class="questions">
+    <div class="container-fluid">
       <div class="col-xs-4 col-xs-offset-4">
     <p>Which Actress played the "Bride" in Kill Bill Volumes 1 and 2?</p>
     <div class="radio">
@@ -34,8 +36,8 @@
         <label>
             <input type="radio" name="question1" id="mc" value="Lucy Liu" checked> Lucy Liu
         </label>
-    </div>
-    <p>What famous Kung Fu legend was the "Bride's" yellow and black suit a tribute to?</p>
+        </div>
+        <p>What famous Kung Fu legend was the "Bride's" yellow and black suit a tribute to?</p>
     <div class="radio">
         <label>
             <input type="radio" name="question2" id="mc" value="Jet Li" checked> Jet Li
@@ -51,7 +53,8 @@
             <input type="radio" name="question2" id="mc" value="Bruce Lee" checked> Bruce Lee
         </label>
     </div>
-    <p>Who is the first person on the "Bride's" list?</p>
+        <div class="questions">
+      <p>Who is the first person on the "Bride's" list?</p>
     <div class="radio">
         <label>
             <input type="radio" name="question3" id="mc" value="O-Ren Ishii" checked> O-Ren Ishii
@@ -66,7 +69,9 @@
         <label>
             <input type="radio" name="question3" id="mc" value="Elle" checked> Elle
         </label>
+      </div>
     </div>
+    <div class="questions">
     <p>Who makes the "Bride's" sword?</p>
     <div class="radio">
         <label>
@@ -83,6 +88,8 @@
             <input type="radio" name="question4" id="mc" value="Budd" checked> Bud
         </label>
     </div>
+    </div>
+    <div class="questions">
     <p>Which Actor makes a guest appearance in Kill Bill?</p>
     <div class="radio">
         <label>
@@ -102,6 +109,8 @@
         <button id="button">Finished</button>
         </div>
      </div>
+  </div>
+  </div>
   </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
