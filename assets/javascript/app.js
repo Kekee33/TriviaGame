@@ -61,7 +61,3 @@ init();
 
 
 	
- //$("#button").on("click")(checkAnsw);
-
-
-// }
