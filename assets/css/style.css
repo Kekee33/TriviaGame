@@ -4,10 +4,12 @@ body {
 
 .jumbotron {
 	text-align: center;
-	opacity: .5;
-	margin: 5px 25px 5px 50px;
+	opacity: .7;
+	margin: 0px 25px 0px 25px;
 	color: #010101;
 	position: relative;
+	font-size: 16px;
+	font-family: "Times New Roman"
 }
 
 p {
@@ -17,3 +19,4 @@ p {
 #timeLeft {
 	margin-top: 0;
 }
+
