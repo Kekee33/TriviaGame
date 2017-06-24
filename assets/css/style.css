@@ -1,0 +1,22 @@
+body {
+	position: absolute;
+}
+
+.jumbotron {
+	text-align: center;
+	opacity: .7;
+	margin: 0px 25px 0px 25px;
+	color: #010101;
+	position: relative;
+	font-size: 16px;
+	font-family: "Times New Roman"
+}
+
+p {
+	color: #333333;
+}
+
+#timeLeft {
+	margin-top: 0;
+}
+
